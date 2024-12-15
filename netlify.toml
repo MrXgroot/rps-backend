@@ -1,5 +1,6 @@
 [build]
   publish = "server"
+  command = "npm install && npm run build"
 
 [functions]
   directory = "serverless"
