@@ -1,11 +1,5 @@
 [build]
-  command = "npm install && npm run build"
-
-[build.environment]
-  PORT = "4829"
-
-[build.publish]
-  path = "server"
+  publish = "server"
 
 [build.functions]
   directory = "serverless"
