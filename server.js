@@ -6,7 +6,7 @@ const rps = require("./engine/RpsEngine.js");
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["https://meow-match-mrxgroot.vercel.app"];
 
 const io = new Server(server, {
   cors: {
