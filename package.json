@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node server.js"
+    "build": "node serverless/server.js",
+    "start": "node serverless/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
