@@ -1,8 +1,8 @@
-# fly.toml
-app = "rps-backend"
-env = {
-  PORT = "3000",
-}
+# netlify.toml
+[build]
+  functions = "serverless"
 
-[[services]]
-  internal_port = 3000
+[[redirects]]
+  from = "/rps/*"
+  to = "/.netlify/functions/rps/:splat"
+  status = 200
