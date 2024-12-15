@@ -1,10 +1,10 @@
 [build]
   functions = "serverless"
-
+  
 [[redirects]]
   from = "/rps/*"
   to = "/.netlify/functions/rps/:splat"
   status = 200
-
-  [build.environment]
-  PORT = "4829"
+  
+[build.environment]
+  PORT = 4829
