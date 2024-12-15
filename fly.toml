@@ -1,0 +1,8 @@
+# fly.toml
+app = "rps-backend"
+env = {
+  PORT = "3000",
+}
+
+[[services]]
+  internal_port = 3000
